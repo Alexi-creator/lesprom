@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Lesprom</title>
+	<link rel="icon" href="#">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+	<form class="form" id="testForm" NAME="testForm" ACTION="mail.php" METHOD="post">
+		<div class="form-group">
+			<label for="exampleFormControlSelect1">Choose please...</label>
+			<select class="form-control" id="exampleFormControlSelect1">
+				<option>1</option>
+				<option>2</option>
+			</select>
+			<select class="form-control" id="exampleFormControlSelect2">
+			</select>
+			<button type="submit" id="button" class="btn btn-primary mb-2">Confirm</button>
+		</div>
+	</form>
+
+	<div class="filter">
+		<button class="filter__btn">Add Companies filter</button>
+		<div class="filter__popup popup-filter">
+			<div class="popup-filter__inner">
+				<div class="popup-filter__header">
+					<div class="popup-filter__title">Edit Filters</div>
+					<div class="popup-filter__cross"></div>
+				</div>
+				<div class="popup-filter__search">
+					<div class="popup-filter__btn-left popup-filter__btn disabled">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#fff"/></svg>
+					</div>
+					<div class="popup-filter__btn-right popup-filter__btn">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#fff"/></svg>
+					</div>
+					<div class="popup-filter__input">
+						<input type="text" placeholder="Find a filter...">
+					</div>
+				</div>
+				<div class="popup-filter__wrap">
+					<div class="popup-filter__col popup-filter__subjects">
+						<ul class="popup-filter__list">
+							<li class="active"><span>Basic info <img src="img/qustion.svg" alt=""> </span></li>		
+							<li><span>Investor Details <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>School Details <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Industries <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Team <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Fudding <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Investors <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>M&A <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+					</div>
+					<div class="popup-filter__col popup-filter__items">
+						<ul class="popup-filter__list" data-atr="Basic info">
+							<li><span>Organization Name <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only) <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="Investor Details">
+							<li><span>Organization Name2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date2 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date2 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="School Details">
+							<li><span>Organization Name3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date3 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date3 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="Industries">
+							<li><span>Organization Name4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date4 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date4 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="Team">
+							<li><span>Organization Name5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date5 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date5 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="Fudding">
+							<li><span>Organization Name6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date6 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date6 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="Investors">
+							<li><span>Organization Name7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date7 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date7 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+						<ul class="popup-filter__list" data-atr="M&A">
+							<li><span>Organization Name8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Location8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Headquarters Regions8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Diversity Spotlight (US Only)8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Operating Status8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Founded Date8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Exit Date8 <img src="img/qustion.svg" alt=""> </span></li>
+							<li><span>Closed Date8 <img src="img/qustion.svg" alt=""> </span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="js/main.min.js"></script>
+</body>
+</html>
